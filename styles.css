@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   --color-primary: #111827;
   --color-secondary: #c9a227;
   --color-accent: #f8f3ea;
@@ -925,21 +925,6 @@ address {
   font-weight: 800;
 }
 
-.floating-whatsapp {
-  position: fixed;
-  right: 18px;
-  bottom: 18px;
-  z-index: 40;
-  display: grid;
-  width: 58px;
-  height: 58px;
-  place-items: center;
-  border-radius: 50%;
-  background: #25d366;
-  color: #073b1a;
-  box-shadow: 0 14px 32px rgba(17, 24, 39, 0.24);
-  font-weight: 950;
-}
 
 .site-footer {
   padding: 46px 0 24px;
@@ -1147,11 +1132,6 @@ address {
   .hours-card dl div {
     align-items: flex-start;
   }
-
-  .floating-whatsapp {
-    width: 54px;
-    height: 54px;
-  }
 }
 
 @media (max-width: 430px) {
@@ -1174,3 +1154,4 @@ address {
     min-height: auto;
   }
 }
+

@@ -462,31 +462,6 @@ h3 {
   clip-path: polygon(50% 0, 72% 42%, 100% 22%, 78% 75%, 55% 48%, 35% 100%, 31% 52%, 0 72%, 26% 38%);
 }
 
-.appointment-card {
-  position: absolute;
-  left: 24px;
-  bottom: 24px;
-  width: min(260px, calc(100% - 48px));
-  padding: 18px;
-  border: 1px solid rgba(255, 255, 255, 0.28);
-  border-radius: var(--radius);
-  background: rgba(255, 255, 255, 0.86);
-  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.16);
-}
-
-.appointment-card strong,
-.appointment-card span {
-  display: block;
-}
-
-.appointment-card strong {
-  color: var(--color-primary);
-  font-size: 1.45rem;
-}
-
-.appointment-card span {
-  color: var(--color-muted);
-}
 
 .section-heading {
   max-width: 720px;
@@ -1154,4 +1129,5 @@ address {
     min-height: auto;
   }
 }
+
 
